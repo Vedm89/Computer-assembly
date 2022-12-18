@@ -423,6 +423,7 @@ textarea.input {
   height: 2.75rem;
   background-color: rgba(255, 255, 255, 0.25);
   color: #fff;
+  outline: none;
 }
 
 @supports (width: clamp( 18.75rem , 5.5rem  +  66.25vw , 22.0625rem )) {
@@ -455,10 +456,6 @@ textarea.input {
 
 .footer__input::placeholder {
   color: rgba(255, 255, 255, 0.8);
-}
-
-.footer__input:active {
-  outline: none;
 }
 
 .footer__button {
@@ -1602,6 +1599,7 @@ h2 {
 
   .footer__button:hover {
     opacity: 0.8;
+    scale: 1;
   }
 
   .footer__link:hover {
